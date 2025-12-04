@@ -3,7 +3,7 @@
 
     $mensagem = $_POST["mensagem"] ?? "";
 
-    $api_key = "AIzaSyBOYQELghaTYX_McO_A8OKoLXzBnirzveo";
+    $api_key = "";
     
     $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" . $api_key;
 
